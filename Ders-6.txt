@@ -1,0 +1,24 @@
+#verilen sayı asal mı diye bakan program
+
+"""sayi = 97
+mesaj = "Asal"
+for i in range (2,sayi):
+    if sayi %i == 0:
+        mesaj ="Asal değil"
+
+print(mesaj)"""
+
+
+mesaj = input("Bir metin yazın:")
+
+kontrol = "üğışçöÜÖÇIŞĞ"
+bulundu = False
+
+for i in kontrol:
+    if i in mesaj:
+        print("Türkçe karakter var")
+        bulundu = True
+        break
+
+if bulundu == False:
+    print("Türkçe karakter yok")

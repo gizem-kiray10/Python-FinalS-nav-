@@ -1,0 +1,26 @@
+"""fibonacci sayılarını bulma
+1,1,2,3,5,8,13,21
+"""
+
+"""a,b= 1,1
+print(a)
+print(b)
+i =2
+while i <= 100:
+    a,b = b,a+b
+    print(b)
+    i+= 1"""
+
+"""fi = [2,3,5]
+for i in range(10):
+    fi +=[fi[len(fi)-1]+ fi[len(fi)-2]]
+print(fi)"""
+
+limit = 15
+s1 = 1
+s2 = 1
+for i in range(20):
+    temp = s1+s2
+    s1=s2
+    s2 = temp
+    print(s2)

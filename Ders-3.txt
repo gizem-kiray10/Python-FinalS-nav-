@@ -1,0 +1,50 @@
+yas = int(input("Yaşınızı girin:"))
+
+if yas < 10:
+    print("Çocuksun")
+elif yas < 25:
+    print("Gençsin")
+elif yas < 50:
+    print("Orta yaşlısın")
+else:
+    print("Yaşlısın")
+    
+print("program bitti")
+
+
+
+kilo = int(input("Kilonuzu giriniz:"))
+
+if kilo <30:
+    print("sıskasın")
+elif kilo <60:
+    print("balık etlisin")
+elif kilo <100:
+    print("kilolusun")
+else:
+    print("Obezsin")
+
+
+
+
+menu="""
+MENU
+1-toplama
+2-cıkarma
+3-programdan cık
+"""
+tercih =0
+while tercih!=3:
+    print(menu)
+    tercih = input("Tercihiniz:")
+    tercih = int(tercih)
+
+    if tercih == 1:
+        s1 = int(input("birinci sayı:"))
+        s2 = int(input("ikici sayı:"))
+        print("toplam =", s1+s2)
+    elif tercih == 2:
+        s1 = int(input("birinci sayı:"))
+        s2 = int(input("ikici sayı:"))
+        print("çıkan =", s1-s2)
+print("by by")

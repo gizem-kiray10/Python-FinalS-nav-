@@ -1,0 +1,27 @@
+import random
+
+dizi = []
+for i in range(0,10):
+    dizi.append(random.randrange(-20,20))
+
+print(dizi)
+print("toplam = ", sum(dizi))
+ortalama = round(sum(dizi)/len(dizi),2)
+print("ortalama= ",ortalama)
+
+
+
+
+"""import random
+
+sayilar = []
+maks = 100
+for i in range(10):
+    sayi = random.randrange(1,maks)
+    while sayi in sayilar:
+        print("sayı aynı geldi, bir daha atıyorum.")
+        sayi = random.randrange(1,maks)
+
+    sayilar += [sayi]
+print(sayilar)
+"""

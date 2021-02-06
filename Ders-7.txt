@@ -1,0 +1,13 @@
+#try except
+
+a = (input("1.sayı:"))
+b = (input("2.sayı:"))
+
+try :
+    a = int(a)
+    b = int(b)
+    print(a/b)
+except ZeroDivisionError:
+    print("0 ile bölme işlemi yapılamaz")
+except ValueError:
+    print("Tam sayılarla işlem yapınız")

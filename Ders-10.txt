@@ -1,0 +1,13 @@
+"""sayi = int(input("Faktöriyeli hesaplanacak sayı:"))
+faktoriyel=1
+for i in range(1,sayi+1):
+    faktoriyel=faktoriyel*i
+
+print(faktoriyel)"""
+
+def faktoriyel(s):
+    f=1
+    for i in range(1,s+1):
+        f=f*i
+    return f
+print(faktoriyel(4))

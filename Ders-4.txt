@@ -1,0 +1,82 @@
+"""i = 0
+while i <11:
+    print(i)
+    i+=1"""
+devam = True
+dosya = open("kelime.txt", "a")
+
+while devam:
+    kelime = input("Kelime :")
+    dosya.write(kelime+"\n")
+    if kelime == "Çık":
+        devam = False
+
+dosya.close()
+
+
+
+
+for i in range (1,100,20):
+    print(i,end='-')
+
+
+
+
+
+sayilar = []
+
+sayi = None
+
+while sayi != 0:
+    sayi = int(input("Bir sayı giriniz:"))
+    sayilar.append(sayi)
+
+sayilar.pop()
+sayilar.sort()
+print("Girdiğini sayılar:", sayilar)
+
+
+
+
+
+
+
+for i in range (1,100):
+    if i%3==0 and i%2==0:
+        print(i)
+        
+
+
+
+
+
+sayac = 1
+ys = 1
+artis = 2
+
+while sayac<22:
+    print("{:^25}".format(ys*"*"))
+    ys+= artis
+    if sayac==10:
+        artis = -2;
+    sayac+=1
+
+
+
+
+
+okul = "Balıkesir Üniversitesi"
+
+for harf in okul:
+    print(2 * harf)
+
+var = "a" in okul
+print(var)
+
+sesli = "aeiıoöüu"
+
+for th in sesli:
+    if th in okul:
+        print(f"{th} var")
+    else:
+        print(f"{th} yok")

@@ -1,0 +1,39 @@
+liste=[10,25,5,[90,100],"gizem",2]
+print(liste)
+
+print(f"eleman sayısı:{len(liste)}")
+print(liste[3])
+print(liste[3][1])
+
+liste.append(18)
+print(liste)
+liste.extend([45,50])
+print(liste)
+
+liste[1]=60
+print(liste)
+
+
+
+
+
+liste= ["Menekşe","Gül"]
+print(liste)
+
+liste.append("Papatya")
+print(liste)
+
+liste.extend(["Sümbül" , "Kaktüs"])
+print(liste)
+
+liste.insert(2,"Orkide")
+print(liste)
+
+liste.remove("Gül")
+print(liste)
+
+liste.pop()
+print(liste)
+
+liste.sort()
+print(liste)

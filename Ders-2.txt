@@ -1,0 +1,24 @@
+print("Merhaba")
+isim = input("İsmini girin:")
+print("Merhaba", isim)
+
+isim = input("İsminizi girin:")
+print("Merhaba ",isim, sep="", end="!\n")
+
+yas = int(input("yasını gir:")
+print("Merhaba", isim,yas,sep="-", end="*\n")
+print("yasın= {}".format(yas))
+print(f"yasın={yas}")
+
+
+a = int(input("1.sayıyı girin:"))
+b = int(input("2.sayıyı girin:"))
+cıkarma = (a-b)
+print(cıkarma)
+
+
+
+"""print("merhaba hoşgeldin", end=" - ")
+print("Necatibey" ,end="*")
+print("Baun", "Nef", "Böte", "4.sınıf" , sep="-")"""
+print(*5*"gizem" , sep="-")
